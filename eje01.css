@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    background-color: #f0f0f0; /* opcional */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja_padre {
+    width: 1200px;
+    padding: 60px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre elementos */
+}
+
+.caja_hijo {
+    width: 160px;
+    height: 340px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+
+button.añadir-carrito {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.flotar_izquierda {
+    float: left;
+}
+.flotar_derecha {
+    float: right;
+}
+.restaura {
+    clear: both;
+}
